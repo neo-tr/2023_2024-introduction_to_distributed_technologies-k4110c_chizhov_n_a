@@ -18,4 +18,4 @@ Date of finished: 03.12.2024
 8. Найти токен в логах ( minikube kubectl -- logs pod/vault )
 9. Зайти ( http://localhost:8200 )
 
-<image src="lab1/part.png" alt="Описание изображения">
+<image src="[lab1/part.png](https://github.com/neo-tr/2023_2024-introduction_to_distributed_technologies-k4110c_chizhov_n_a/blob/main/lab1/part.png?raw=true)" alt="Описание изображения">
