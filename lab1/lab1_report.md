@@ -6,4 +6,14 @@ Group: K4110c
 Author: Chizhov Nikita Alexandrovich
 Lab: Lab1
 Date of create: 03.12.2024
-Date of finished: 
+Date of finished: 03.12.2024
+
+1. Установил Docker на рабочий компьютер с оффициального сайта через .exe
+2. Установил Minikube с оффициального сайта через .exe
+3. Развернул minikube cluster при помощи docker ( minikube start --driver=docker )
+4. Написал манифес .yaml
+5. Применил манифест ( minikube kubectl -- apply -f vault-pod.yaml )
+6. Создание сервиса для доступа к поду ( minikube kubectl -- expose pod vault --type=NodePort --port=8200 )
+7. Проброс порта ( minikube kubectl -- port-forward service/vault 8200:8200 )
+8. Найти токен в логах ( minikube kubectl -- logs pod/vault )
+9. Зайти ( http://localhost:8200 )
