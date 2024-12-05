@@ -16,6 +16,7 @@ Date of finished: 03.12.2024
 6. Создание сервиса для доступа к поду ( minikube kubectl -- expose pod vault --type=NodePort --port=8200 )
 7. Проброс порта ( minikube kubectl -- port-forward service/vault 8200:8200 )
 8. Найти токен в логах ( minikube kubectl -- logs pod/vault )
-9. Зайти ( http://localhost:8200 )
+    ![Токен](Tocken.png)
+10. Зайти ( http://localhost:8200 )
 
  ![Сами операции](part.png)
