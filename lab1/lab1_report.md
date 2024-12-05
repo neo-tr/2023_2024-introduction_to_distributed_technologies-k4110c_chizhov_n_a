@@ -18,3 +18,4 @@ Date of finished: 03.12.2024
 8. Найти токен в логах ( minikube kubectl -- logs pod/vault )
 9. Зайти ( http://localhost:8200 )
 
+ ![Сами операции](part.png)
