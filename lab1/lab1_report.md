@@ -17,3 +17,5 @@ Date of finished: 03.12.2024
 7. Проброс порта ( minikube kubectl -- port-forward service/vault 8200:8200 )
 8. Найти токен в логах ( minikube kubectl -- logs pod/vault )
 9. Зайти ( http://localhost:8200 )
+
+<image src="lab1/part.png" alt="Описание изображения">
