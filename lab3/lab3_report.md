@@ -12,5 +12,5 @@ Date of finished: 12.12.2024
 2. Создал configmap.yaml
 3. Применил configmap.yaml ( kubectl apply -f configmap.yaml )
 4. Убедился что создано ( kubectl get configmap react-app-config -o yaml )
-   ![1](img/1.png)
+   ![1](img/1.jpg)
 5.
