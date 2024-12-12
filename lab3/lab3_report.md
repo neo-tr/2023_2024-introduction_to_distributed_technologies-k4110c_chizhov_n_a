@@ -31,9 +31,10 @@ Date of finished: 12.12.2024
 17. Применил ingress.yaml ( kubectl apply -f ingress.yaml )
 18. Проверил что ingress успешно создан ( kubectl get ingress )  
     ![5](img/5.jpg)  
-19. Установил сертификат на Windows  
+19. Добавил lab3.local в /etc/hosts
+20. Установил сертификат на Windows  
     ![6](img/6.jpg)  
-20. Запустил туннель minikube ( minikube tunnel )  
+21. Запустил туннель minikube ( minikube tunnel )  
     ![7](img/7.jpg)  
-21. Проверяем результат в браузере 
+22. Проверяем результат в браузере 
     ![8](img/8.jpg)
