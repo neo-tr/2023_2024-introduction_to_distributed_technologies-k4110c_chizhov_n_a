@@ -27,7 +27,7 @@ Date of finished: 12.12.2024
 14. Проверил что секрет создан ( kubectl get secrets )
 15. Импортировал сертификат в minikube ( minikube cp tls.crt /var/lib/minikube/certs/lab3.crt и minikube cp tls.key /var/lib/minikube/certs/lab3.key )  
     ![4](img/4.jpg)  
-16. Создал ingress.yaml
+16. Создал ingress.yaml ( в service использовал service.yaml из прошлой работы)
 17. Применил ingress.yaml ( kubectl apply -f ingress.yaml )
 18. Проверил что ingress успешно создан ( kubectl get ingress )  
     ![5](img/5.jpg)  
