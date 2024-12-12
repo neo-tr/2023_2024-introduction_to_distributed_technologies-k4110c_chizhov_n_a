@@ -35,3 +35,5 @@ Date of finished: 12.12.2024
     ![6](img/6.jpg)  
 20. Запустил туннель minikube ( minikube tunnel )  
     ![7](img/7.jpg)  
+21. Проверяем результат в браузере 
+    ![8](img/8.jpg)
