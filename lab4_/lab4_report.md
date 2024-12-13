@@ -7,3 +7,9 @@ Author: Chizhov Nikita Alexandrovich
 Lab: Lab4 
 Date of create: 13.12.2024  
 Date of finished: .12.2024   
+
+1. Запустил Minikube с CNI плагином Calico, двумя нодами и докером как драйвером виртуализации ( minikube start --nodes=2 --cni=calico --driver=docker)
+2. Проверил количество нод ( kubectl get nodes )
+3. Проверил работу плагина Calico ( kubectl get pods -n kube-system )
+   ![1](img/1.jpg)
+4.
