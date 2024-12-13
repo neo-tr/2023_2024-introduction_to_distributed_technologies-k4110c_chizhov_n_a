@@ -6,7 +6,7 @@ Group: K4110c
 Author: Chizhov Nikita Alexandrovich  
 Lab: Lab4 
 Date of create: 13.12.2024  
-Date of finished: .12.2024   
+Date of finished: 14.12.2024   
 
 1. Запустил Minikube с CNI плагином Calico, двумя нодами и докером как драйвером виртуализации ( minikube start --nodes=2 --cni=calico --driver=docker)
 2. Проверил количество нод ( kubectl get nodes )
@@ -26,3 +26,5 @@ Date of finished: .12.2024
 10. Зашёл в первый под ( kubectl exec -it frontend-deployment-68574484c8-78kqc -- /bin/sh )
 11. Выполнил пинг по адресу ( ping 10.244.205.193 )  
    ![7](img/7.jpg)  
+12. Схема:  
+   ![lab4_schematic](lab4_schematic.png)  
